@@ -11,12 +11,12 @@ way|z11-[railway=tram]
 	set .tracks_present;
 }
 
-way|z9-[railway=disused]["disused:usage"="branch"][!"disused:service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
-way|z9-[railway=disused]["usage"="branch"][!"service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
-way|z9-[railway=disused]["disused:usage"="main"][!"disused:service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
-way|z9-[railway=disused]["usage"="main"][!"service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
-way|z10-[railway=disused]["disused:railway"!="tram"],
-way|z11-[railway=disused]["disused:railway"="tram"]
+way|z9-["railway:disused"="yes"]["disused:usage"="branch"][!"disused:service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
+way|z9-["railway:disused"="yes"]["usage"="branch"][!"service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
+way|z9-["railway:disused"="yes"]["disused:usage"="main"][!"disused:service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
+way|z9-["railway:disused"="yes"]["usage"="main"][!"service"]["disused:railway"!="light_rail"]["disused:railway"!="subway"]["disused:railway"!="tram"],
+way|z10-["railway:disused"="yes"]["disused:railway"!="tram"],
+way|z11-["railway:disused"="yes"]["disused:railway"="tram"]
 {
 	set .tracks_disused;
 }
